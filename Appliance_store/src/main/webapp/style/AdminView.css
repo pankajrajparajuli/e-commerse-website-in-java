@@ -1,0 +1,72 @@
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers the items on the line */
+    align-items: flex-start; /* Aligns items at the top of the container */
+    padding: 20px;
+}
+
+.product {
+    position: relative; /* Necessary for absolute positioning inside */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Keeps content and buttons spaced out */
+    border: 1px solid #ddd;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    width: 240px; /* Adjusted width for each card */
+    height: 350px; /* Adjusted height for each card */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.product-image {
+    width: 100%; /* Ensure the image container takes full width */
+    height: 150px; /* Fixed height for the image container */
+    overflow: hidden; /* Hide overflow to prevent other elements from entering */
+}
+
+.product-image img {
+    width: 100%; /* Ensure the image takes full width of its container */
+    height: 100%; /* Ensure the image takes full height of its container */
+    object-fit: cover; /* Maintain aspect ratio and fill container */
+}
+
+.product-content {
+    overflow: hidden; /* Prevents content from overflowing */
+    text-align: center;
+    height: 150px; /* Adjusted height for content */
+}
+
+.product-actions {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    padding: 0 10px; /* Padding for the action buttons */
+}
+
+.product h3, .product p {
+    margin: 5px 0;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin: 5px 0;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+form {
+    margin: 2px 0;
+    display: block; /* Ensures forms are stacked vertically */
+}

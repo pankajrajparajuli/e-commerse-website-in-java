@@ -1,0 +1,105 @@
+/* General Body Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Main Cart Title */
+.cart-title {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Alert Messages */
+.alert {
+    color: yellow;
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Styles for the cart table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+}
+
+/* Table Headers */
+th {
+    background-color: #007BFF;
+    color: white;
+    text-align: left;
+    padding: 12px 15px;
+}
+
+/* Column for actions has centered content */
+th:last-child, td:last-child {
+    text-align: center;
+}
+
+/* Table cells */
+td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Styling for table links and buttons */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Button-like styles for interactive icons */
+.fa-plus-circle, .fa-minus-circle, .fa-trash-alt {
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.fa-plus-circle:hover, .fa-minus-circle:hover, .fa-trash-alt:hover {
+    color: #0056b3;
+}
+
+/* Footer section */
+.checkout {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.checkout a {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.checkout a:hover {
+    background-color: #218838;
+}
+
+/* Proceed to Order Button */
+.proceed-to-order {
+    background-color: #ffc107;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.buy-now {
+    margin-right: 15px;
+}
+
+.proceed-to-order:hover {
+    background-color: #e0a800;
+}

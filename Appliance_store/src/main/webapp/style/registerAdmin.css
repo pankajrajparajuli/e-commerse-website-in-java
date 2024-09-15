@@ -1,0 +1,79 @@
+/* General page settings */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e3f2fd; /* Lighter blue background for admin specificity */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Form container */
+.container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly deeper shadow for emphasis */
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    color: #343a40; /* Darker shade for more formality */
+    margin-bottom: 30px;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Labels and input spacing */
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #495057; /* Dark gray for sharp contrast */
+    font-size: 16px;
+}
+
+/* Input fields styling */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #ced4da; /* Gray border for a neutral, professional look */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Submit button enhancement */
+input[type="submit"] {
+    background-color: #dc3545; /* Red accent for critical admin actions */
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+input[type="submit"]:hover {
+    background-color: #c82333; /* Darker red on hover for emphasis */
+}
+
+/* Error message styling */
+.error-message {
+    color: #cc0000;
+    margin-top: 10px;
+    font-size: 14px;
+}
